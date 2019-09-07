@@ -1,20 +1,18 @@
 //
-//  ViewController.swift
+//  MainTabController.swift
 //  interfaz-test
 //
 //  Created by Emmanuel on 9/7/19.
 //  Copyright © 2019 Emmanuel. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainTabController : UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    
 }
-

@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		14F8C3322324300A0061524F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C3312324300A0061524F /* AppDelegate.swift */; };
-		14F8C3342324300A0061524F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C3332324300A0061524F /* ViewController.swift */; };
+		14F8C3342324300A0061524F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C3332324300A0061524F /* LoginViewController.swift */; };
 		14F8C3372324300A0061524F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F8C3352324300A0061524F /* Main.storyboard */; };
 		14F8C3392324300C0061524F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F8C3382324300C0061524F /* Assets.xcassets */; };
 		14F8C33C2324300C0061524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F8C33A2324300C0061524F /* LaunchScreen.storyboard */; };
 		14F8C3472324300C0061524F /* interfaz_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C3462324300C0061524F /* interfaz_testTests.swift */; };
 		14F8C3522324300C0061524F /* interfaz_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C3512324300C0061524F /* interfaz_testUITests.swift */; };
+		14F8C360232436D50061524F /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C35F232436D50061524F /* MainTabController.swift */; };
+		14F8C36223243C160061524F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C36123243C160061524F /* FirstViewController.swift */; };
+		14F8C36623244E850061524F /* CoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C36523244E850061524F /* CoverCollectionViewCell.swift */; };
+		14F8C3682324547A0061524F /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C3672324547A0061524F /* CardImage.swift */; };
+		14F8C36A232463DF0061524F /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C369232463DF0061524F /* AlbumCollectionViewCell.swift */; };
+		14F8C36C232464EF0061524F /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C36B232464EF0061524F /* ArtistViewController.swift */; };
+		14F8C36E2324657A0061524F /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8C36D2324657A0061524F /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		14F8C32E2324300A0061524F /* interfaz-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "interfaz-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F8C3312324300A0061524F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14F8C3332324300A0061524F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14F8C3332324300A0061524F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		14F8C3362324300A0061524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14F8C3382324300C0061524F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F8C33B2324300C0061524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		14F8C34D2324300C0061524F /* interfaz-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "interfaz-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F8C3512324300C0061524F /* interfaz_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interfaz_testUITests.swift; sourceTree = "<group>"; };
 		14F8C3532324300C0061524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F8C35F232436D50061524F /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		14F8C36123243C160061524F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		14F8C36523244E850061524F /* CoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		14F8C3672324547A0061524F /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
+		14F8C369232463DF0061524F /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		14F8C36B232464EF0061524F /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		14F8C36D2324657A0061524F /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		14F8C3302324300A0061524F /* interfaz-test */ = {
 			isa = PBXGroup;
 			children = (
+				14F8C36B232464EF0061524F /* ArtistViewController.swift */,
 				14F8C3312324300A0061524F /* AppDelegate.swift */,
-				14F8C3332324300A0061524F /* ViewController.swift */,
+				14F8C369232463DF0061524F /* AlbumCollectionViewCell.swift */,
+				14F8C36523244E850061524F /* CoverCollectionViewCell.swift */,
+				14F8C3672324547A0061524F /* CardImage.swift */,
+				14F8C3332324300A0061524F /* LoginViewController.swift */,
 				14F8C3352324300A0061524F /* Main.storyboard */,
 				14F8C3382324300C0061524F /* Assets.xcassets */,
 				14F8C33A2324300C0061524F /* LaunchScreen.storyboard */,
 				14F8C33D2324300C0061524F /* Info.plist */,
+				14F8C35F232436D50061524F /* MainTabController.swift */,
+				14F8C36123243C160061524F /* FirstViewController.swift */,
+				14F8C36D2324657A0061524F /* SongTableViewCell.swift */,
 			);
 			path = "interfaz-test";
 			sourceTree = "<group>";
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F8C3342324300A0061524F /* ViewController.swift in Sources */,
+				14F8C3342324300A0061524F /* LoginViewController.swift in Sources */,
 				14F8C3322324300A0061524F /* AppDelegate.swift in Sources */,
+				14F8C36623244E850061524F /* CoverCollectionViewCell.swift in Sources */,
+				14F8C36C232464EF0061524F /* ArtistViewController.swift in Sources */,
+				14F8C3682324547A0061524F /* CardImage.swift in Sources */,
+				14F8C360232436D50061524F /* MainTabController.swift in Sources */,
+				14F8C36E2324657A0061524F /* SongTableViewCell.swift in Sources */,
+				14F8C36223243C160061524F /* FirstViewController.swift in Sources */,
+				14F8C36A232463DF0061524F /* AlbumCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9252VR653;
 				INFOPLIST_FILE = "interfaz-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9252VR653;
 				INFOPLIST_FILE = "interfaz-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
